@@ -29,10 +29,10 @@
         "pages": [
           "api-reference/introduction",
           {
-            "group": "API documentation",
+            "group": "Get started",
             "pages": [
-              "api-reference/api-documentation/untitled-page",
-              "api-reference/api-documentation/authentication"
+              "api-reference/api-documentation/authentication",
+              "api-reference/api-documentation/untitled-page"
             ]
           }
         ]
