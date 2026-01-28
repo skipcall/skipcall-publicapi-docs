@@ -10,10 +10,7 @@
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
-      // {
-      //   "tab": "API",
-      //   "openapi": "https://api-staging.skipcall.dev/docs-json"
-      // },
+
       {
         "tab": "Guides",
         "groups": [
