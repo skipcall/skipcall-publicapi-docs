@@ -11,4 +11,21 @@ Authorization: YOUR_API_KEY
 
 ## **Generate API Keys**
 
-Generate API keys in your [**Skipcall account settings**](https://web.withallo.com/settings/api).
+Generate API keys in your [**Skipcall account settings**](https://web.withallo.com/settings/api).**\
+Example Request**
+
+```shellscript
+curl -X GET "https://api-public.skipcall.io/v1/api/contacts" \
+  -H "Authorization: YOUR_API_KEY"
+```
+
+## **Error Responses**
+
+If your API key is invalid or missing, you’ll receive a`401 Unauthorized`response:
+
+```json
+{
+  "code": "API_KEY_INVALID",
+  "details": null
+}
+```
