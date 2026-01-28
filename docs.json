@@ -30,6 +30,7 @@
           {
             "group": "API documentation",
             "pages": [
+              "api-reference/api-documentation/authentication",
               "api-reference/introduction"
             ]
           },

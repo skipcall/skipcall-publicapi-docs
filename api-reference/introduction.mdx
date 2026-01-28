@@ -1,33 +1,21 @@
 ---
-title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
+title: "Introduction"
+description: "Get started with the Skipcall API to programmatically manage your phone system
+
+The Skipcall API provides programmatic access to your Skipcall account allowing you to retrieve calls and contacts.
+
+Feel free to each us out with our needs : support@skipcall.io"
 ---
 
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
-
-## Welcome
-
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
-
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
+<Card title="Plant Store Endpoints" icon="leaf" href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json">
   View the OpenAPI specification file
 </Card>
 
-## Authentication
+## **\
+Base URL**
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+All API requests should be made to:
 
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
+```
+https://api.skipcall.io
 ```
