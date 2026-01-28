@@ -4,50 +4,26 @@
   "name": "Skipcall Public Documentation",
   "colors": {
     "primary": "#09AA77",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "light": "#3ABC93",
+    "dark": "#09AA77"
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Site internet",
+          "icon": "book-open-cover",
+          "href": "https://skipcall.io"
+        },
+        {
+          "anchor": "Aller sur Skipcall",
+          "icon": "newspaper",
+          "href": "https://app.skipcall.io"
+        }
+      ]
+    },
     "tabs": [
-
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
       {
         "tab": "API reference",
         "groups": [
@@ -68,25 +44,12 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://skipcall.io"
   },
   "navbar": {
     "links": [
@@ -119,5 +82,8 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "appearance": {
+    "default": "system"
   }
 }
