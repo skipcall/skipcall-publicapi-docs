@@ -1,15 +1,19 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Skipcall Public Documentation",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#09AA77",
     "light": "#07C983",
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
+      {
+        "tab": "API",
+        "openapi": "https://api-staging.skipcall.dev/docs-json"
+      },
       {
         "tab": "Guides",
         "groups": [
