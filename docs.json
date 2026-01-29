@@ -13,12 +13,12 @@
       "anchors": [
         {
           "anchor": "Site internet",
-          "icon": "book-open-cover",
+          "icon": "earth-africa",
           "href": "https://skipcall.io"
         },
         {
           "anchor": "Aller sur Skipcall",
-          "icon": "newspaper",
+          "icon": "ear-muffs",
           "href": "https://app.skipcall.io"
         }
       ]
