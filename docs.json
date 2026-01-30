@@ -29,6 +29,10 @@
               "api-reference/api-documentation/authentication",
               "api-reference/api-documentation/untitled-page"
             ]
+          },
+          {
+            "group": "Available endpoints",
+            "openapi": "https://k3x5sloewba6.share.zrok.io/docs-json"
           }
         ]
       }
