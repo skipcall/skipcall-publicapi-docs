@@ -25,7 +25,7 @@
     },
     "tabs": [
       {
-        "tab": "API",
+        "tab": "API reference",
         "pages": [
           "api-reference/introduction",
           {
