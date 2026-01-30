@@ -34,10 +34,10 @@
             "group": "Available endpoints",
             "openapi": "https://k3x5sloewba6.share.zrok.io/docs-json",
             "servers": [
-    {
-      "url": "https://api-public.skipcall.app/v1"
-    }
-  ]
+              {
+                "url": "https://api-public.skipcall.app/v1"
+              }
+            ]
           }
         ]
       }
