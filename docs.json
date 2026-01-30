@@ -25,6 +25,10 @@
     },
     "tabs": [
       {
+        "tab": "API",
+        "openapi": "https://k3x5sloewba6.share.zrok.io/docs-json"
+      },
+      {
         "tab": "API reference",
         "pages": [
           "api-reference/introduction",
