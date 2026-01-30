@@ -23,25 +23,20 @@
         }
       ]
     },
-    "tabs": [
+    "pages": [
+      "api-reference/introduction",
       {
-        "tab": "API reference",
+        "group": "Get started",
         "pages": [
-          "api-reference/introduction",
-          {
-            "group": "Get started",
-            "pages": [
-              "api-reference/api-documentation/authentication",
-              "api/get-started/bse-url",
-              "api-reference/api-documentation/untitled-page"
-            ]
-          },
-          {
-            "group": "API",
-            "pages": [
-              ""
-            ]
-          }
+          "api-reference/api-documentation/authentication",
+          "api/get-started/bse-url",
+          "api-reference/api-documentation/untitled-page"
+        ]
+      },
+      {
+        "group": "API",
+        "pages": [
+          ""
         ]
       }
     ]
