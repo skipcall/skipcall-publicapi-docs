@@ -33,7 +33,7 @@
           {
             "group": "Available endpoints",
             "expanded": true,
-            "openapi": "https://api-public-staging.skipcall.app/docs-json"
+            "openapi": "https://api-public.skipcall.app/docs-json"
           }
         ]
       }
