@@ -8,6 +8,11 @@
     "dark": "#09AA77"
   },
   "favicon": "/favicon.svg",
+  "servers": [
+    {
+      "url": "https://api-public.skipcall.app/v1"
+    }
+  ],
   "navigation": {
     "global": {
       "anchors": [
